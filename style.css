@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+button {
+    background-color: rgb(5, 142, 248);
+    color: white;
+    border-color: white;
+    border-radius: 20px 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 70%;
+}
+
+input {
+    size: 20px;
+    border-radius: 20px 20px 20px;
+    border-color: aqua;
+    padding: 10px;
+   
+
+}
+
+.unauthorized {
+    padding: 20px;
+    background-color: red;
+    animation-duration: 3s;
+    animation-name: danger;
+    animation-iteration-count: infinite;
+}
+
+@keyframes danger {
+    50%  {background-color: darkred;}
+}
+
+.container {
+    display: inline-block;
+   
+}
+
